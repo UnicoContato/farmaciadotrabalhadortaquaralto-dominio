@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácia do Trabalhador - Cuidando de você!</title>
+    <meta name="description" content="Melhor preço e atendimento em Taquaralto. Medicamentos, perfumaria e atenção farmacêutica.">
+    <meta property="og:title" content="Farmácia do Trabalhador">
+    <meta property="og:description" content="Saúde e economia para você em Taquaralto.">
+    <meta property="og:image" content="https://farmaciaftbtaquaralto.com.br/img/6.jpg">
+    <meta property="og:url" content="https://farmaciaftbtaquaralto.com.br">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#e11d48',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-900 overflow-x-hidden">
+
+    <header id="main-header" class="fixed w-full z-50 transition-all duration-300 transform translate-y-0">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="glass-effect rounded-2xl px-6 py-3 flex justify-between items-center shadow-lg border border-white/20">
+                <a href="#" class="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+                    Farmácia do Trabalhador
+                </a>
+
+                <div class="hidden md:flex space-x-8 font-medium">
+                    <a href="#inicio" class="hover:text-secondary transition">Início</a>
+                    <a href="#sobre" class="hover:text-secondary transition">Sobre Nós</a>
+                    <a href="#servicos" class="hover:text-secondary transition">Serviços</a>
+                    <a href="#galeria" class="hover:text-secondary transition">Galeria</a>
+                    <a href="#contato" class="hover:text-secondary transition">Contato</a>
+                </div>
+
+                <a href="https://wa.me/556335712222" class="hidden md:flex items-center gap-2 bg-green-500 text-white px-5 py-2 rounded-full hover:bg-green-600 transition shadow-md">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                    Peça agora
+                </a>
+
+                <button id="mobile-menu-btn" class="md:hidden text-primary">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+
+            <div id="mobile-menu" class="hidden mt-2 glass-effect rounded-2xl flex-col p-6 space-y-4 md:hidden animate-fade-in shadow-xl">
+                <a href="#inicio" class="text-lg font-medium">Início</a>
+                <a href="#sobre" class="text-lg font-medium">Sobre Nós</a>
+                <a href="#servicos" class="text-lg font-medium">Serviços</a>
+                <a href="#galeria" class="text-lg font-medium">Galeria</a>
+                <a href="#contato" class="text-lg font-medium">Contato</a>
+                <a href="https://wa.me/556335712222" class="bg-green-500 text-white p-3 rounded-xl text-center font-bold">WhatsApp</a>
+            </div>
+        </nav>
+    </header>
+
+    <section id="inicio" class="relative h-screen flex items-center justify-center text-center px-4 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="img/3.jpeg" alt="Interior da Farmácia" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+        
+        <div class="relative z-10 text-white max-w-4xl animate-slide-up">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Farmácia do Trabalhador</h1>
+            <p class="text-xl md:text-2xl mb-10 text-gray-200">Levando saúde e economia até você!</p>
+            <a href="https://wa.me/556335712222" class="bg-secondary text-white px-10 py-4 rounded-full text-lg font-bold hover:scale-105 transition-transform shadow-2xl inline-block">
+                Faça seu Pedido
+            </a>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 bg-white reveal">
+        <div class="container mx-auto px-6 text-center max-w-3xl">
+            <h2 class="text-4xl font-bold mb-8 text-primary">Sobre Nós</h2>
+            <p class="text-lg leading-relaxed text-gray-600 mb-6">
+                A **Farmácia do Trabalhador** em Taquaralto é referência em cuidado e economia. Com uma equipe dedicada e um estoque completo, buscamos oferecer não apenas medicamentos, mas uma experiência de saúde humanizada para toda a comunidade.
+            </p>
+            <p class="text-lg leading-relaxed text-gray-600">
+                Localizada estrategicamente, oferecemos o menor preço da região e um atendimento farmacêutico diferenciado, garantindo que você encontre tudo o que precisa para o seu bem-estar e da sua família.
+            </p>
+        </div>
+    </section>
+
+    <section id="servicos" class="py-24 bg-gray-50 reveal">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-16 text-center text-primary">Nossos Serviços</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="glass-card p-8 rounded-3xl text-center hover-lift border border-white/50 bg-white/40">
+                    <svg class="w-12 h-12 text-secondary mx-auto mb-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <g fill="currentColor"> <path fill="none" d="M0 0H24V24H0z" /> <path d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z" /> </g> </svg>
+                    <h3 class="text-2xl font-bold mb-4">Medicamentos</h3>
+                    <p class="text-gray-600">Amplo estoque de genéricos, éticos e similares com descontos de até 90%.</p>
+                </div>
+
+                <div class="glass-card p-8 rounded-3xl text-center hover-lift border border-white/50 bg-white/40">
+                    <svg class="w-12 h-12 text-secondary mx-auto mb-4" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 442 442"> <g> <path d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z" /> <path d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10 c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682 C366,172.653,357.028,163.682,346,163.682z M196,20h50v92h-50V20z M96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85 c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10 V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10 v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z" /> </g> </svg>
+                    <h3 class="text-2xl font-bold mb-4">Perfumaria</h3>
+                    <p class="text-gray-600">Linha completa de higiene, cosméticos e cuidados infantis das melhores marcas.</p>
+                </div>
+
+                <div class="glass-card p-8 rounded-3xl text-center hover-lift border border-white/50 bg-white/40">
+                    <svg class="w-12 h-12 text-secondary mx-auto mb-4" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"> <circle cx="10" cy="6" r="4" stroke="currentColor" stroke-width="1.5"/> <path d="M19 2C19 2 21 3.2 21 6C21 8.8 19 10 19 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/> <path d="M17 4C17 4 18 4.6 18 6C18 7.4 17 8 17 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/> <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                    <h3 class="text-2xl font-bold mb-4">Atendimento</h3>
+                    <p class="text-gray-600">Tele-entrega rápida e farmacêuticos sempre prontos para orientar você.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="py-24 bg-white reveal">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-16 text-center text-primary">Galeria</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="overflow-hidden rounded-2xl h-64 shadow-lg group">
+                    <img src="img/1.jpeg" alt="Fachada" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64 shadow-lg group">
+                    <img src="img/2.jpeg" alt="Equipe" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64 shadow-lg group">
+                    <img src="img/3.jpeg" alt="Prateleiras" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64 shadow-lg group">
+                    <img src="img/4.jpeg" alt="Interior" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64 shadow-lg group">
+                    <img src="img/5.jpeg" alt="Atendimento" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="overflow-hidden rounded-2xl h-64 shadow-lg group">
+                    <img src="img/6.jpeg" alt="Loja" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-24 bg-gray-50 reveal">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div class="glass-card p-10 rounded-3xl bg-white shadow-xl">
+                    <h2 class="text-3xl font-bold mb-8 text-primary">Contato</h2>
+                    <ul class="space-y-4 text-gray-700">
+                        <li><strong>CNPJ:</strong> 47.785.663/0001-41</li>
+                        <li><strong>Nome Empresarial:</strong> FARMACIA FTB TAQUARALTO LTDA</li>
+                        <li><strong>Endereço:</strong> AV TOCANTINS, QD 102 LT 16, SALA 01</li>
+                        <li><strong>Bairro:</strong> JARDIM AURENY I (TAQUARALTO)</li>
+                        <li><strong>Local:</strong> PALMAS - TO</li>
+                        <li><strong>CEP:</strong> 77.060-002</li>
+                        <li><strong>Telefone:</strong> (63) 3571-2222</li>
+                        <li><strong>E-mail:</strong> farmaciaftbtaquaralto@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="h-[500px] md:h-full rounded-3xl overflow-hidden shadow-xl border-4 border-white">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.5414441551066!2d-48.3371686!3d-10.3343949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x933b26798e35183d%3A0xc3c9f28d9c57500c!2sAv.%20Tocantins%2C%20Palmas%20-%20TO!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr" 
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 bg-primary text-white text-center">
+        <div class="container mx-auto px-6">
+            <p class="mb-4 text-lg">Farmácia do Trabalhador &copy; 2026</p>
+            <button id="open-privacy" class="text-sm text-gray-300 hover:text-white underline">Política de Privacidade</button>
+        </div>
+    </footer>
+
+    <div id="privacy-modal" class="fixed inset-0 z-[100] hidden flex items-center justify-center p-4">
+        <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+        <div class="relative bg-white rounded-3xl max-w-2xl w-full p-8 max-h-[80vh] overflow-y-auto shadow-2xl">
+            <h3 class="text-2xl font-bold mb-6 text-primary">Política de Privacidade</h3>
+            <div class="text-gray-600 space-y-4">
+                <p>Este site é institucional e tem como objetivo apresentar os produtos e serviços da Farmácia do Trabalhador.</p>
+                <p>Nós não coletamos, armazenamos ou processamos dados pessoais dos usuários através deste site. Os cliques nos botões de contato redirecionam o usuário para aplicativos de terceiros (como WhatsApp), onde a política de privacidade desses aplicativos será aplicada.</p>
+                <p>Não utilizamos cookies de rastreamento de comportamento. Nosso compromisso é com a sua transparência e saúde.</p>
+            </div>
+            <button id="close-privacy" class="mt-8 bg-primary text-white px-6 py-2 rounded-xl font-bold">Fechar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
